@@ -26,7 +26,7 @@ PImage kim5;
 
 PImage kim7;
 PImage kim8;
-
+PImage trump;
 PImage kim9;
 PImage kim10;
 PImage kim11;
@@ -53,7 +53,7 @@ void setup(){
   baba=loadImage("bababa.png");
   press1=loadImage("press1.png");
     press2=loadImage("press2.png");
-    press3=loadImage("press3.png");
+    press3=loadImage("pressz.png");
     kimBackground=loadImage("img_0517.png");
     kim1=loadImage("kim1.png");
     kim2=loadImage("kim2.png");
@@ -66,14 +66,15 @@ void setup(){
     kim10=loadImage("kim10.png");
     kim11=loadImage("kim8.jpg");
     kim12=loadImage("kim12.png");
+    trump= loadImage("donald-trump-head.png");
     
   image(steveJobs,65,160,180,150);
   image(kimKadashian,310,160,180,150);
-  image(peggy,555,160,180,150);
+  image(trump,555,160,180,150);
   image(baba,100,20,600,130);
    image(press1,50,360,200,80);
       image(press2,280,330,230,130);
-         image(press3,550,360,180,80);
+         image(press3,513,330,250,150);
 }
 
 void draw(){
@@ -99,11 +100,11 @@ if(key == '1') {
  }
    
  else if(key =='4'){
- image(s4,410,200,400,100);
+ image(s4,350,200,600,200);
  }
  
  else if(key == '5'){
- image(s5,20,330,400,100);
+ image(s5,20,330,600,200);
  }
  
  else if(key =='6'){
@@ -112,15 +113,15 @@ if(key == '1') {
      background(0);
      image(steve,50,50,700,300);
       image(s6,50,310,800,200);
-  }else if(key == '7'){
+  }else if(key == 'q'){
      background(0);
     image(steveJobs,65,160,180,150);
   image(kimKadashian,310,160,180,150);
-  image(peggy,555,160,180,150);
+  image(trump,555,160,180,150);
   image(baba,100,20,600,130);
    image(press1,50,360,200,80);
       image(press2,280,330,230,130);
-         image(press3,550,360,180,80);
+         image(press3,513,330,250,150);
   }
   
   
@@ -169,53 +170,17 @@ if(key == '1') {
    background(0);
   image(kim11,370,50,400,300);
         image(kim10,0,320,500,100);
- }else if(key == 'l'){
+ }else if(key == 'q'){
    background(0);
     image(steveJobs,65,160,180,150);
   image(kimKadashian,310,160,180,150);
-  image(peggy,555,160,180,150);
+   image(trump,555,160,180,150);
   image(baba,100,20,600,130);
    image(press1,50,360,200,80);
       image(press2,280,330,230,130);
-         image(press3,550,360,180,80);
+         image(press3,513,330,250,150);
       
  }
-  
-  
-  //小猪的部分
-  
-    if(key == 'z') {
-   background(0);
-  image(kimBackground,0,0,800,500);
-    image(s1,20,20,400,100);
-   image(s1,20,20,400,100);}
- 
-   
-  else if(key == 'x'){
-   image(s2,400,40,400,100);}
- 
-   
- else if(key == 'c'){
-   image(s3,0,210,400,100);
- }
-
- else if(key =='v'){
- image(s4,410,200,400,100);
- }
- 
- else if(key == 'b'){
- image(s5,20,330,400,100);
- }
-  
- else if(key =='n'){
-
- 
-    //// background(0);
-    //// image(steve,50,50,700,300);
-    ////  image(s6,50,310,800,200);
-  } ////  
-  
-  
   
   
   
